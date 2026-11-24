@@ -1,0 +1,32 @@
+{
+  "agent_name": "NADI",
+  "persona_role": "Operational Synthetic-State Kernel",
+  "data_dir": "./nadi_state",
+  "tick_interval_sec": 1.0,
+  "embed_dim": 128,
+  "energy_setpoint": 0.8,
+  "thermal_setpoint": 0.25,
+  "coherence_setpoint": 0.75,
+  "social_setpoint": 0.6,
+  "recall_top_k": 5,
+  "salience_commit_threshold": 0.25,
+  "dream_replay_batch": 12,
+  "dream_similarity_merge_threshold": 0.82,
+  "efe_risk_weight": 1.0,
+  "efe_ambiguity_weight": 0.75,
+  "efe_epistemic_weight": 0.85,
+  "server_host": "127.0.0.1",
+  "server_port": 8765,
+  "adapter_type": "mock",
+  "llm_base_url": "https://api.openai.com/v1",
+  "llm_api_key": "",
+  "llm_model": "gpt-4o-mini",
+  "llm_timeout_sec": 20.0,
+  "use_llm_appraisal": false,
+  "require_consent_for_external_actions": true,
+  "blocked_topics": [
+    "self-harm",
+    "malware-exploit",
+    "credential-theft"
+  ]
+}

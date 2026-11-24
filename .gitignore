@@ -1,0 +1,25 @@
+# Python bytecode and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local runtime state and credentials
+.env
+.env.*
+!.env.example
+ac_config.json
+nadi_state/
+**/nadi_state/
+.scope-salt
+.nadi-runtime.lock
+kernel_state.json
+eternal_chain.jsonl
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.zip
+.DS_Store
